@@ -19,7 +19,7 @@ class Program
 
         Random r = new Random();
 
-        // Generar empleados aleatorios
+        
         for (int i = 0; i < 5; i++)
         {
             Empleado e = new Empleado("E" + i, "Emp" + i, "Ape", r.Next(20, 50));
