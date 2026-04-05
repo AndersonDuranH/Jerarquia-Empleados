@@ -22,7 +22,7 @@ class Program
         
         for (int i = 0; i < 5; i++)
         {
-            Empleado e = new Empleado("E" + i, "Emp" + i, "Ape", r.Next(20, 50));
+            Empleado e = new Empleado("E" + i, "Empleado" + i, "Apellido", r.Next(20, 50));
 
             int contactos = r.Next(1, 10);
             for (int j = 0; j < contactos; j++)
